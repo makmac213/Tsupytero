@@ -1,4 +1,4 @@
-python-google-option-chain
+Tsupytero
 ==============
 
 $ pip install tsupytero
@@ -10,25 +10,26 @@ from tsupytero import Tsupytero
 
 t = Tsupytero()
 
-# get all last trade data (json)
+## get all last trade data (json)
 t.all()
 
-# looks for the stock symbol (json)
+## looks for the stock symbol (json)
 t.find([symbol])
 
-# gets the latest traded data of a symbol (json)
+## gets the latest traded data of a symbol (json)
 t.get_latest_data([symbol])
 
-# returns recent (30) days data of a symbol
+## returns recent (30) days data of a symbol
 t.get_recent_data([symbol])
 
-# returns a candlestick chart of the recent 
-# (30) days data of a symbol
+## returns a candlestick chart of the recent 
+## (30) days data of a symbol
 t.get_recent_candlestick([symbol])
 
 Credits
 =======
-https://github.com/edgedalmacio/phisix
+https://github.com/edgedalmacio/phisix/
 http://phisix-api.appspot.com/
+http://www.pse.com.ph/
 
 
