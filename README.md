@@ -29,7 +29,9 @@ t.get_recent_candlestick([symbol])
 Credits
 =======
 https://github.com/edgedalmacio/phisix/
+
 http://phisix-api.appspot.com/
+
 http://www.pse.com.ph/
 
 
