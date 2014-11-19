@@ -1,4 +1,4 @@
-import optionchain
+import tsupytero
 
 try:
     from setuptools import setup
@@ -6,14 +6,14 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name=optionchain.__app_name__,
-    version=optionchain.__version__,
-    description=optionchain.__description__,
-    author=optionchain.__author__,
-    author_email=optionchain.__author_email__,
+    name=tsupytero.__app_name__,
+    version=tsupytero.__version__,
+    description=tsupytero.__description__,
+    author=tsupytero.__author__,
+    author_email=tsupytero.__author_email__,
     packages=['tsupytero'],
     install_requires=['requests', 'matplotlib'],
-    url=optionchain.__app_url__,
+    url=tsupytero.__app_url__,
     classifiers=(
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
@@ -21,5 +21,5 @@ setup(
         'Programming Language :: Python',
         'License :: Freeware',
     ),
-    download_url=optionchain.__download_url__,
+    download_url=tsupytero.__download_url__,
 )
